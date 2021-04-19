@@ -35,7 +35,7 @@ const UserReview = () => {
                 key={index}
                 size={24}
                 onClick={() => handleClick(index + 1)}
-                onMouseOver={() => handleMouseOver(index + 1)}
+
                 onMouseLeave={handleMouseLeave}
                 color={(hoverValue || currentValue) > index ? colors.orange : colors.grey}
                 style={{
