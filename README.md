@@ -1,12 +1,7 @@
 import React from 'react';
 import { FaStar } from "react-icons/fa";
 import { useState } from 'react/cjs/react.development';
-
-
-
 const UserReview = () => {
-
-
     const colors = {
         orange: "#FFBA5A",
         grey: "#a9a9a9"
